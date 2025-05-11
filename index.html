@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TE Computer Solution PLC | Computer & Office Machine Maintenance in Addis Ababa</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="TE Computer Solution PLC offers expert computer and office machine maintenance in Sarbet, Addis Ababa. Certified technicians, fast service, and affordable prices.">
+    <meta name="keywords" content="computer maintenance Addis Ababa, office machine repair, TE Computer Solution PLC, laptop repair Ethiopia, printer repair Sarbet, virus removal, hardware diagnostics">
+    <meta name="author" content="TE Computer Solution PLC">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph for Social Sharing -->
+    <meta property="og:title" content="TE Computer Solution PLC | Computer Maintenance in Addis Ababa">
+    <meta property="og:description" content="Professional computer and office machine maintenance in Sarbet, Addis Ababa. Trusted by local businesses.">
+    <meta property="og:image" content="https://example.com/logo.jpg"> <!-- Replace with your logo or a preview image -->
+    <meta property="og:url" content="https://your-website.com"> <!-- Replace with your real domain -->
+    <meta property="og:type" content="website">
+
+    <!-- JSON-LD Structured Data for Local SEO -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "TE Computer Solution PLC",
+      "image": "https://example.com/logo.jpg",  // Replace with real image
+      "url": "https://your-website.com",        // Replace with your domain
+      "telephone": "+251911878155",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Adams Pavilion, Office F16, Sarbet",
+        "addressLocality": "Addis Ababa",
+        "addressCountry": "ET"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 8.9976898,
+        "longitude": 38.7396985
+      },
+      "openingHours": "Mo-Sa 03:00-12:00",
+      "sameAs": [
+        "https://www.facebook.com/YourPage",    // Replace with real links
+        "https://www.instagram.com/YourPage",
+        "https://www.linkedin.com/company/YourPage"
+      ]
+    }
+    </script>
+
+    <!-- Styles and Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION SECTION ===== -->
+    <nav class="navbar">
+         <!-- Mobile Contact Button (phone icon) -->
+    <button class="mobile-only contact-icon" id="mopenContactModal" >
+        <i class="fas fa-phone-volume"></i>
+
+
+
+    </button>
+
+        <div class="logo">
+            <i class="fas fa-laptop-code"></i>
+            <span>TE Computer solution</span>
+        </div>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="Service.html">Services</a>
+            <a href="About.html">About</a>
+            <a href="#faq">FAQ</a>
+            <a href="#location">Location</a>
+
+        </div>
+        <button class="cta-button " id="openContactModal">Contact Us</button>
+    </nav>
+
+
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+
+        <div class="hero-container animate">
+                <h1>Trusted Experts in Computers & Office Machines</h1>
+                <div class="hero-buttons">
+                    <a href="Service.html" class="cta-button" aria-label="View all services">View All Services</a>
+            </div>
+           
+        </div>
+    </section>
+    
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="section" id="services">
+        <div class="section-title animate">
+            <h2>Our Services</h2>
+            <p>We offer a full range of computer and office machine maintenance and repair services, designed to meet all your needs.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card animate">
+                <div class="service-img">
+                    <i class="fas fa-desktop"></i>
+                </div>
+                <div class="service-content animate">
+                    <h3>Computer Diagnostics</h3>
+                    <p>Comprehensive diagnostics to identify any issues with your computer's hardware or software.</p>
+                    <button class="see-more" onclick="openModal('Computer Diagnostics', 'Our diagnostic service thoroughly examines your computer to identify any hardware or software issues. We use advanced tools to pinpoint problems accurately and provide you with a detailed report and recommended solutions.')">
+                        See More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card animate">
+                <div class="service-img ">
+                    <i class="fas fa-virus"></i>
+                </div>
+                <div class="service-content animate">
+                    <h3>Virus Removal</h3>
+                    <p>Complete virus and malware removal to protect your computer and your data.</p>
+                    <button class="see-more" onclick="openModal('Virus Removal', 'Our virus removal service eliminates all types of malware, including viruses, spyware, ransomware, and trojans. We also provide protection recommendations to prevent future infections.')">
+                        See More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="service-card animate ">
+                <div class="service-img ">
+                    <i class="fas fa-tools"></i>
+                </div>
+                <div class="service-content animate">
+                    <h3>Hardware Repair</h3>
+                    <p>Expert repair and replacement of computer hardware components.</p>
+                    <button class="see-more" onclick="openModal('Hardware Repair', 'We repair and replace all computer hardware components, including motherboards, processors, RAM, hard drives, SSDs, power supplies, and more. All repairs come with a warranty.')">
+                        See More <i class="fas fa-arrow-right"></i>
+                    </button>
+                </div>
+           
+        </div>
+    </div> 
+    <div class="service-link">
+        <a href="Service.html">View All Services</a>
+      </div>
+      
+
+    </section>
+
+
+
+
+
+    <!-- ===== WHY CHOOSE US SECTION ===== -->
+    <section class="section">
+        <div class="section-title animate">
+            <h2>Why Choose TE Computer </h2>
+            <p>We stand out from the competition with our exceptional service and expertise.</p>
+        </div>
+        <div class="features animate">
+            <div class="feature animate">
+                <i class="fas fa-certificate"></i>
+                <h3>Certified Technicians</h3>
+                <p>All our technicians are certified and undergo regular training to stay updated with the latest technologies.</p>
+            </div>
+            <div class="feature animate">
+                <i class="fas fa-clock"></i>
+                <h3>Fast Service</h3>
+                <p>Most repairs are completed within 24 hours, with emergency services available for urgent cases.</p>
+            </div>
+            <div class="feature animate">
+                <i class="fas fa-shield-alt"></i>
+                <h3>Warranty</h3>
+                <p>All our repairs come with a warranty, giving you peace of mind and protection for your investment.</p>
+            </div>
+            <div class="feature animate ">
+                <i class="fas fa-dollar-sign"></i>
+                <h3>Affordable</h3>
+                <p>We offer competitive pricing without compromising on quality, with no hidden fees.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+<!-- ===== ABOUT SECTION ===== --> 
+<section class="section about" id="about">
+    <h2 class="about-title animate">About TE Computer solution</h2>
+    <div class="about-content animate">
+      <div class="about-img animate">
+        <img src="aboutimage.jpg" 
+        alt="Technician repairing laptop"
+        class="hero-image">      </div>
+      <div class="about-text animate">
+        <p>TE Computer solution is a professional computer maintenance and repair service dedicated to providing top-quality solutions for all your technology needs.</p>
+        <p>Founded in 2015, we have grown to become one of the most trusted names in computer repair, serving thousands of satisfied customers.</p>
+        <p>Our team of certified technicians has the expertise to handle any computer issue, from simple software problems to complex hardware repairs.</p>
+        <a href="About.html"><button class="cta-button">Learn More About Us</button></a>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+    <!-- ===== CLIENTS SECTION ===== -->
+    <section class="section clients" id="clients">
+        <div class="section-title animate">
+            <h2>Our Valued Clients</h2>
+            <p>We've had the privilege of working with these amazing companies.</p>
+        </div>
+        <div class="client-logos animate">
+            <div class="client-logo animate">Effoy pizza</div>
+            <div class="client-logo animate">M O G C</div>
+            <div class="client-logo animate">Kibish</div>
+            <div class="client-logo animate">Medco</div>
+            <div class="client-logo animate">Maranque</div>
+            <div class="client-logo animate">Lafto Rose</div>
+            <div class="client-logo animate">DataSystems</div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+<!--   FAQ  -->
+
+<section class="section faq" id="faq">
+    <div class="section-title">
+      <h2>Frequently Asked Questions</h2>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-question">How long does a typical repair take?</div>
+      <div class="faq-answer">
+        Most repairs are completed within 24 hours, depending on the issue and parts availability.
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-question">Do you offer home service?</div>
+      <div class="faq-answer">
+        Yes, we provide on-site services within city limits at an additional cost.
+      </div>
+    </div>
+  
+    <div class="faq-item">
+      <div class="faq-question">Is there a warranty on repairs?</div>
+      <div class="faq-answer">
+        All hardware repairs come with at least a 30-day warranty.
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+<!-- ===== LOCATION SECTION ===== -->
+<section class="section" id="location">
+    <div class="location animate">
+        <div class="location-map animate">
+            <!-- Embed Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.7221987949424!2d38.739698499999996!3d8.9976898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b856e819e9631%3A0xfcc3b4cabb4fffb3!2sTE%20computer!5e0!3m2!1sen!2set!4v1746468987730!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="location-info animate">
+            <h2>Our Location</h2>
+            <p><i class="fas fa-map-marker-alt"></i> Sarbet, Addis Ababa, Ethiopia – Adams Pavilion, First Floor, Office F16</p>
+            <p><i class="fas fa-phone"></i> (+251) 911878155 / 964466502</p>
+            <p><i class="fas fa-envelope"></i> info@techcarepro.com</p>
+            <p><i class="fas fa-clock"></i> Monday-Friday: 3AM-12PM<br>Saturday: 3AM-12PM<br>Sunday: Closed</p>
+            <button class="lctan-button" style="margin-top: 1.5rem;" onclick="window.open('https://maps.app.goo.gl/zM21fT36g67BgpHm6', '_blank')">Get Directions</button>
+        </div>
+    </div>
+    <div class="location-image">
+        <img src="adams.jpg" alt="Our Location" loading="lazy" class="location-img">
+    </div>
+</section>
+
+
+    <!-- ===== FOOTER SECTION ===== -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>TE Computer solution</h3>
+                <p>Professional computer maintenance and repair services you can trust.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-column">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Computer Diagnostics</a></li>
+                    <li><a href="#">Virus Removal</a></li>
+                    <li><a href="#">Hardware Repair</a></li>
+                    <li><a href="#">Data Recovery</a></li>
+                    <li><a href="#">Network Setup</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact</h3>
+                <ul>
+                    <li><a href="#"><i class="fas fa-map-marker-alt"></i> Sarbet, Addis Ababa, Ethiopia – Adams Pavilion, First Floor, Office F16</a></li>
+                    <li><a href="#"><i class="fas fa-phone"></i> (+251) 911878155 / 964466502</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> info@techcarepro.com</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TE Computer Solution. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+  <!-- Go Back to Top Button -->
+<button id="backToTop" class="back-to-top">
+    <i class="fas fa-arrow-up"></i> <!-- Using Font Awesome for the icon -->
+  </button>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ===== MODAL SECTION ===== -->
+    <div class="modal" id="serviceModal">
+        <div class="modal-content">
+            <button class="close-modal" onclick="closeModal()">&times;</button>
+            <h2 id="modal-title">Service Title</h2>
+            <p id="modal-description">Service description will appear here.</p>
+        </div>
+    </div>
+
+
+
+
+<!-- ===== Contact Modal ===== -->
+<div class="contact-modal" id="contactModal">
+    <div class="contact-modal-content" id="contactModalContent">
+      <button class="close-btn" onclick="closeContactModal()">&times;</button>
+      <h2 class="modal-title">Contact Options</h2>
+  
+      <div class="contact-box">
+        <div class="contact-label">Telegram</div>
+        <div class="contact-row">
+          <p class="contact-info">@YourTelegramUsername</p>
+          <button class="action-btn" onclick="window.open('https://t.me/YourTelegramUsername', '_blank')">Open</button>
+        </div>
+      </div>
+  
+      <div class="contact-box">
+        <div class="contact-label">Email</div>
+        <div class="contact-row">
+          <p class="contact-info">youremail@example.com</p>
+          <button class="action-btn" onclick="window.location.href='mailto:youremail@example.com'">Send</button>
+        </div>
+      </div>
+  
+      <div class="contact-box">
+        <div class="contact-label">Phone</div>
+        <div class="contact-row">
+          <p class="contact-info">+251911878155</p>
+          <button class="action-btn" onclick="callPhone()">Call</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+ <!-- ===== JAVASCRIPT ===== -->
+<script>
+    // ===== MODAL FUNCTIONALITY =====
+
+    // Function to open the modal and fill in the service title and description
+    function openModal(title, description) {
+        document.getElementById('modal-title').textContent = title;
+        document.getElementById('modal-description').textContent = description;
+        document.getElementById('serviceModal').style.display = 'flex'; // Show the modal
+        document.body.style.overflow = 'hidden'; // Prevent background scrolling
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        document.getElementById('serviceModal').style.display = 'none'; // Hide modal
+        document.body.style.overflow = 'auto'; // Re-enable background scrolling
+    }
+
+    // Close modal if user clicks outside the modal content
+    window.onclick = function(event) {
+        const modal = document.getElementById('serviceModal');
+        if (event.target == modal) {
+            closeModal(); // Close only if the background is clicked
+        }
+    }
+
+
+    
+
+    // ===== CLIENT LOGOS ANIMATION =====
+
+    // Pause animation of logos on hover for better visibility
+    const clientLogos = document.querySelectorAll('.client-logo');
+    clientLogos.forEach(logo => {
+        logo.addEventListener('mouseover', () => {
+            logo.style.animationPlayState = 'paused'; // Pause animation
+        });
+        logo.addEventListener('mouseout', () => {
+            logo.style.animationPlayState = 'running'; // Resume animation
+        });
+    });
+
+
+
+
+
+
+
+
+
+
+
+    // ===== SCROLL ANIMATION CONTROLLER =====
+
+    document.addEventListener("DOMContentLoaded", () => {
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add("show"); // Show animation when element enters view
+                } else {
+                    entry.target.classList.remove("show"); // Hide animation when it leaves
+                }
+            });
+        }, {
+            threshold: 0.2 // Start animation when 20% of the element is visible
+        });
+
+        // Apply observer to all elements with .animate class
+        document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+    });
+
+
+
+
+
+    // ===== CONTACT MODAL FUNCTIONALITY =====
+
+    const modal = document.getElementById('contactModal');
+    const modalContent = document.getElementById('contactModalContent');
+
+    // Open the contact modal when button is clicked
+    document.getElementById('openContactModal').addEventListener('click', () => {
+        modal.style.display = 'flex';
+    });
+    document.getElementById('mopenContactModal').addEventListener('click', () => {
+        modal.style.display = 'flex';
+    });
+
+    // Function to close the contact modal
+    function closeContactModal() {
+        modal.style.display = 'none';
+    }
+
+    // Close modal if user clicks outside the modal content
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            closeContactModal();
+        }
+    });
+
+    // ===== COPY PHONE TO CLIPBOARD =====
+
+    function callPhone() {
+    window.location.href = "tel:+251911878155";
+}
+
+
+    // ===== NAVIGATION SCROLL HIGHLIGHTING =====
+
+    window.addEventListener('scroll', function() {
+        const sections = document.querySelectorAll('section'); // All page sections
+        const links = document.querySelectorAll('.nav-links a'); // All nav links
+
+        let currentSection = '';
+
+        // Check which section is currently in view
+        sections.forEach(section => {
+            const sectionTop = section.offsetTop - 100; // Slight offset
+            const sectionBottom = sectionTop + section.offsetHeight;
+
+            if (window.scrollY >= sectionTop && window.scrollY < sectionBottom) {
+                currentSection = section.getAttribute('id'); // Get ID of visible section
+            }
+        });
+
+        // Highlight the corresponding nav link
+        links.forEach(link => {
+            link.classList.remove('active');
+            if (link.getAttribute('href') === `#${currentSection}` ||
+                (currentSection === 'about' && link.getAttribute('href') === '#about') ||
+                (currentSection === 'services' && link.getAttribute('href') === '#services')) {
+                link.classList.add('active');
+            }
+        });
+    });
+
+    // ===== FAQ ACCORDION TOGGLE =====
+
+    // Toggle FAQ answer when a question is clicked
+    document.querySelectorAll('.faq-question').forEach((question) => {
+        question.addEventListener('click', () => {
+            const item = question.parentElement; // Get the entire FAQ item
+            item.classList.toggle('active'); // Expand or collapse
+        });
+    });
+
+    // ===== BACK TO TOP BUTTON =====
+
+    const backToTopButton = document.getElementById('backToTop'); // Button reference
+
+    // Show button after scrolling halfway down the page
+    window.onscroll = function () {
+        const scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+        const windowHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+        if (scrollPosition > windowHeight / 2) {
+            backToTopButton.classList.add('show'); // Show button
+        } else {
+            backToTopButton.classList.remove('show'); // Hide button
+        }
+    };
+
+    // Scroll to top smoothly when button is clicked
+    backToTopButton.onclick = function () {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+    
+    // ===== HAMBURGER MENU FUNCTIONALITY =====
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector('.navbar');
+        const navLinks = document.querySelector('.nav-links');
+        const contactBtn = document.getElementById('openContactModal');
+
+        // Convert contact button to hamburger on mobile
+        function setupMobileMenu() {
+            if (window.innerWidth <= 768) {
+                contactBtn.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    this.classList.toggle('active'); // Toggle the hamburger button's active state
+                    navLinks.classList.toggle('active'); // Toggle the navigation menu visibility
+                });
+            } else {
+                // Revert to normal contact button on larger screens
+                contactBtn.classList.remove('active');
+                navLinks.classList.remove('active');
+                contactBtn.onclick = null; // Remove mobile click handler for larger screens
+            }
+        }
+
+        // Initialize and handle window resize
+        setupMobileMenu();
+        window.addEventListener('resize', setupMobileMenu); // Call setupMobileMenu on window resize
+
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    contactBtn.classList.remove('active');
+                    navLinks.classList.remove('active'); // Close menu when clicking a link on mobile
+                }
+            });
+        });
+    });
+
+    // Mobile menu toggle
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.querySelector('.navbar');
+        const navLinks = document.querySelector('.nav-links');
+        
+        // Toggle menu when clicking the hamburger icon (navbar)
+        navbar.addEventListener('click', function(e) {
+            if (window.innerWidth <= 768) {
+                const navbarRect = navbar.getBoundingClientRect(); // Get navbar dimensions
+                if (e.clientX > navbarRect.right - 50) { // If click is in the hamburger area
+                    navbar.classList.toggle('active'); // Toggle the active state of the navbar
+                    navLinks.classList.toggle('active'); // Toggle visibility of the navigation menu
+                }
+            }
+        });
+        
+        // Close menu when clicking a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', function() {
+                if (window.innerWidth <= 768) {
+                    navbar.classList.remove('active');
+                    navLinks.classList.remove('active'); // Close menu when a link is clicked on mobile
+                }
+            });
+        });
+
+        // Close menu when scrolling on mobile
+        window.addEventListener('scroll', function() {
+            if (window.innerWidth <= 768 && navLinks.classList.contains('active')) {
+                navbar.classList.remove('active');
+                navLinks.classList.remove('active'); // Close menu when scrolling on mobile
+            }
+        });
+    });
+    </script>
+</body>
+</html>
